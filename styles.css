@@ -1,0 +1,43 @@
+body {
+  background: darksalmon;
+}
+
+.fill {
+  background-image: url('https://source.unsplash.com/random/150x150');
+  position: relative;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 10px ;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.hold {
+  border: solid 5px #ccc;
+}
+
+.empty {
+  display: inline-block;
+  height: 40rem;
+  width: 20rem;
+  margin: 10px;
+  border: solid 3px salmon;
+  background: white;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}
+
+#resetButton{
+  position: absolute;
+  bottom: 30px;
+  left: 10rem;
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(29, 223, 194);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
